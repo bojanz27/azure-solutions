@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.azure.servicebus" Version="4.1.0" />
+    <PackageReference Include="microsoft.azure.storage.queue" Version="11.1.0" />
+    <PackageReference Include="microsoft.extensions.logging" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Util\FluentValidation\" />
+  </ItemGroup>
+
+</Project>
